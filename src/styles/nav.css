@@ -1,0 +1,35 @@
+.logoSize {
+    width: 50%;
+    height: auto;
+}
+
+.logoSizenav {
+    width: 20%;
+    height: auto;
+}
+
+.add-shadow {
+    box-shadow: 0 3px 7px -2px rgba(0, 0, 0, .2);
+}
+
+.add-color {
+    background-color: black;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.changeColor {
+    color: black !important;
+    text-decoration: none;
+}
+
+.white {
+    color: white;
+}
+
+.hover:hover{
+    color: black !important;
+    text-decoration: none !important;
+}

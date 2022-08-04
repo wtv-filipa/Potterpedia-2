@@ -1,0 +1,67 @@
+.blog-card1 {
+    display: block;
+    position: relative;
+    background: #444;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    width: 85%;
+    max-width: 1000px;
+    height: 400px;
+    box-shadow: 4px 8px 28px rgba(39, 44, 49, 0.1), 1px 3px 8px rgba(39, 44, 49, 0.075);
+    margin: 12.5vh auto;
+    overflow: hidden !important;
+    top: 2rem;
+}
+
+.blog-card1 .content-mask {
+    display: inline-block;
+    background: rgba(10, 10, 10, 0.5);
+    width: 81%;
+    height: 100%;
+    padding: 0.75em 0 0.75em 2.5em;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.blog-card1#id_0 {
+    background: url("../imgs/hufflepuff.jpg");
+    background-position: center;
+}
+
+.blog-card1#id_1 {
+    background: url("../imgs/slytherin.jpg");
+    background-position: center;
+}
+
+.blog-card1#id_2 {
+    background: url("../imgs/ravenclaw.jpg");
+    background-position: center;
+}
+
+.blog-card1#id_3 {
+    background-image: url("../imgs/gryffindor.jpg");
+    background-position: center;
+}
+
+h3 {
+    background: transparent;
+    color: White;
+    font-weight: 800;
+    line-height: 1.2;
+    height: auto;
+    border-bottom: 2px solid rgba(204, 204, 204, 0.75);
+    margin-top: 0.3em;
+    margin-bottom: 0.35em;
+    padding-bottom: 0.2em;
+}
+
+.blogtext {
+    color: white;
+    font-size: 18px;
+    line-height: 1.4;
+    width: 100%;
+    margin-top: 0.3em;
+    padding-left: 2px;
+    z-index: 9;
+}

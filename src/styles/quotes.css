@@ -1,0 +1,32 @@
+#quoteDisplay {
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.btn.btn-1 {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 6px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white !important;
+  box-shadow: 0 0 20px #2f2f2f;
+  border-radius: 20px;
+  width: 10%;
+}
+
+.btn:hover {
+  background-position: right center;
+}
+
+.btn-1 {
+  margin: 20px;
+  background-image: linear-gradient(to right, #ae0001 0%, #d3a625 51%, #740001 100%);
+  font-family: Verdana;
+}
